@@ -19,6 +19,7 @@ body{
         align-items: center;
         box-shadow: 2px 0px 4px #ffffff;
         backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
     };
 
     canvas{
