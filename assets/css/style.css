@@ -54,14 +54,15 @@ body{
 
     .dot_text{
         font-family: "ノスタルドット（M+）";
-    }
+    };
 
     /* Hello,World! hoverアニメーション */
-    .hw_anim{
+    .hw{
         transition: letter-spacing 0.3s;
-    }
+        display: inline;
+    };
 
-    .hw_anim:hover{
+    .hw:hover{
         letter-spacing: 0.1em;
     };
 };
